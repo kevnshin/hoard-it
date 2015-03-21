@@ -1,0 +1,430 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-D',
+1 verbose cli   'browser-sync',
+1 verbose cli   'gulp-debug',
+1 verbose cli   'gulp-jade',
+1 verbose cli   'gupl-minify' ]
+2 info using npm@2.0.2
+3 info using node@v0.10.32
+4 verbose node symlink /usr/local/bin/node
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'browser-sync', null ]
+7 verbose cache add spec="browser-sync" args=["browser-sync",null]
+8 verbose parsed spec { raw: 'browser-sync',
+8 verbose parsed spec   scope: null,
+8 verbose parsed spec   name: 'browser-sync',
+8 verbose parsed spec   rawSpec: '',
+8 verbose parsed spec   spec: '*',
+8 verbose parsed spec   type: 'range' }
+9 verbose cache add [ 'gulp-debug', null ]
+10 verbose cache add spec="gulp-debug" args=["gulp-debug",null]
+11 verbose parsed spec { raw: 'gulp-debug',
+11 verbose parsed spec   scope: null,
+11 verbose parsed spec   name: 'gulp-debug',
+11 verbose parsed spec   rawSpec: '',
+11 verbose parsed spec   spec: '*',
+11 verbose parsed spec   type: 'range' }
+12 verbose cache add [ 'gulp-jade', null ]
+13 verbose cache add spec="gulp-jade" args=["gulp-jade",null]
+14 verbose parsed spec { raw: 'gulp-jade',
+14 verbose parsed spec   scope: null,
+14 verbose parsed spec   name: 'gulp-jade',
+14 verbose parsed spec   rawSpec: '',
+14 verbose parsed spec   spec: '*',
+14 verbose parsed spec   type: 'range' }
+15 verbose cache add [ 'gupl-minify', null ]
+16 verbose cache add spec="gupl-minify" args=["gupl-minify",null]
+17 verbose parsed spec { raw: 'gupl-minify',
+17 verbose parsed spec   scope: null,
+17 verbose parsed spec   name: 'gupl-minify',
+17 verbose parsed spec   rawSpec: '',
+17 verbose parsed spec   spec: '*',
+17 verbose parsed spec   type: 'range' }
+18 verbose parsed spec { raw: 'browser-sync',
+18 verbose parsed spec   scope: null,
+18 verbose parsed spec   name: 'browser-sync',
+18 verbose parsed spec   rawSpec: '',
+18 verbose parsed spec   spec: '*',
+18 verbose parsed spec   type: 'range' }
+19 verbose addNamed [ 'browser-sync', '*' ]
+20 verbose addNamed [ null, '*' ]
+21 verbose parsed spec { raw: 'gulp-debug',
+21 verbose parsed spec   scope: null,
+21 verbose parsed spec   name: 'gulp-debug',
+21 verbose parsed spec   rawSpec: '',
+21 verbose parsed spec   spec: '*',
+21 verbose parsed spec   type: 'range' }
+22 verbose addNamed [ 'gulp-debug', '*' ]
+23 verbose addNamed [ null, '*' ]
+24 verbose parsed spec { raw: 'gulp-jade',
+24 verbose parsed spec   scope: null,
+24 verbose parsed spec   name: 'gulp-jade',
+24 verbose parsed spec   rawSpec: '',
+24 verbose parsed spec   spec: '*',
+24 verbose parsed spec   type: 'range' }
+25 verbose addNamed [ 'gulp-jade', '*' ]
+26 verbose addNamed [ null, '*' ]
+27 verbose parsed spec { raw: 'gupl-minify',
+27 verbose parsed spec   scope: null,
+27 verbose parsed spec   name: 'gupl-minify',
+27 verbose parsed spec   rawSpec: '',
+27 verbose parsed spec   spec: '*',
+27 verbose parsed spec   type: 'range' }
+28 verbose addNamed [ 'gupl-minify', '*' ]
+29 verbose addNamed [ null, '*' ]
+30 silly lockFile 6a35fa99-browser-sync browser-sync@*
+31 verbose lock browser-sync@* /Users/kevinshin/.npm/6a35fa99-browser-sync.lock
+32 silly lockFile 13320985-gulp-debug gulp-debug@*
+33 verbose lock gulp-debug@* /Users/kevinshin/.npm/13320985-gulp-debug.lock
+34 silly lockFile ce5aea89-gulp-jade gulp-jade@*
+35 verbose lock gulp-jade@* /Users/kevinshin/.npm/ce5aea89-gulp-jade.lock
+36 silly lockFile ba252796-gupl-minify gupl-minify@*
+37 verbose lock gupl-minify@* /Users/kevinshin/.npm/ba252796-gupl-minify.lock
+38 silly addNameRange { name: 'browser-sync', range: '*', hasData: false }
+39 verbose mapToRegistry name browser-sync
+40 verbose mapToRegistry uri https://registry.npmjs.org/browser-sync
+41 silly addNameRange { name: 'gulp-debug', range: '*', hasData: false }
+42 verbose mapToRegistry name gulp-debug
+43 verbose mapToRegistry uri https://registry.npmjs.org/gulp-debug
+44 silly addNameRange { name: 'gulp-jade', range: '*', hasData: false }
+45 verbose mapToRegistry name gulp-jade
+46 verbose mapToRegistry uri https://registry.npmjs.org/gulp-jade
+47 silly addNameRange { name: 'gupl-minify', range: '*', hasData: false }
+48 verbose mapToRegistry name gupl-minify
+49 verbose mapToRegistry uri https://registry.npmjs.org/gupl-minify
+50 verbose request on initialization, where is /gupl-minify
+51 verbose request after pass 1, where is /gupl-minify
+52 verbose request url raw /gupl-minify
+53 verbose request resolving registry [ 'https://registry.npmjs.org/', './gupl-minify' ]
+54 verbose request after pass 2, where is https://registry.npmjs.org/gupl-minify
+55 verbose request no auth needed
+56 info attempt registry request try #1 at 21:48:32
+57 verbose request id 6be313f5772a5cc9
+58 http request GET https://registry.npmjs.org/gupl-minify
+59 verbose request on initialization, where is /gulp-jade
+60 verbose request after pass 1, where is /gulp-jade
+61 verbose request url raw /gulp-jade
+62 verbose request resolving registry [ 'https://registry.npmjs.org/', './gulp-jade' ]
+63 verbose request after pass 2, where is https://registry.npmjs.org/gulp-jade
+64 verbose request no auth needed
+65 info attempt registry request try #1 at 21:48:32
+66 verbose etag "6EV14SBLRTMPR30NBY0OYGUA"
+67 http request GET https://registry.npmjs.org/gulp-jade
+68 verbose request on initialization, where is /browser-sync
+69 verbose request after pass 1, where is /browser-sync
+70 verbose request url raw /browser-sync
+71 verbose request resolving registry [ 'https://registry.npmjs.org/', './browser-sync' ]
+72 verbose request after pass 2, where is https://registry.npmjs.org/browser-sync
+73 verbose request no auth needed
+74 info attempt registry request try #1 at 21:48:32
+75 verbose etag "4LPDOO3I19274LQXUV11A4P3C"
+76 http request GET https://registry.npmjs.org/browser-sync
+77 verbose request on initialization, where is /gulp-debug
+78 verbose request after pass 1, where is /gulp-debug
+79 verbose request url raw /gulp-debug
+80 verbose request resolving registry [ 'https://registry.npmjs.org/', './gulp-debug' ]
+81 verbose request after pass 2, where is https://registry.npmjs.org/gulp-debug
+82 verbose request no auth needed
+83 info attempt registry request try #1 at 21:48:32
+84 verbose etag "5BZHI5DI8KPV5BW2W5XLBUJ3W"
+85 http request GET https://registry.npmjs.org/gulp-debug
+86 http 304 https://registry.npmjs.org/gulp-debug
+87 silly registry.get cb [ 304,
+87 silly registry.get   { date: 'Fri, 20 Mar 2015 07:48:33 GMT',
+87 silly registry.get     server: 'Apache',
+87 silly registry.get     via: '1.1 varnish',
+87 silly registry.get     'last-modified': 'Fri, 20 Mar 2015 07:48:33 GMT',
+87 silly registry.get     'cache-control': 'max-age=60',
+87 silly registry.get     etag: '"5BZHI5DI8KPV5BW2W5XLBUJ3W"',
+87 silly registry.get     age: '0',
+87 silly registry.get     'x-served-by': 'cache-dfw1825-DFW',
+87 silly registry.get     'x-cache': 'MISS',
+87 silly registry.get     'x-cache-hits': '0',
+87 silly registry.get     'x-timer': 'S1426837713.171056,VS0,VE51',
+87 silly registry.get     vary: 'Accept',
+87 silly registry.get     'content-length': '0',
+87 silly registry.get     'keep-alive': 'timeout=10, max=50',
+87 silly registry.get     connection: 'Keep-Alive' } ]
+88 verbose etag https://registry.npmjs.org/gulp-debug from cache
+89 silly addNameRange number 2 { name: 'gulp-debug', range: '*', hasData: true }
+90 silly addNameRange versions [ 'gulp-debug',
+90 silly addNameRange   [ '0.1.0',
+90 silly addNameRange     '0.1.1',
+90 silly addNameRange     '0.1.2',
+90 silly addNameRange     '0.2.0',
+90 silly addNameRange     '0.3.0',
+90 silly addNameRange     '0.3.1',
+90 silly addNameRange     '1.0.0',
+90 silly addNameRange     '1.0.1',
+90 silly addNameRange     '2.0.0',
+90 silly addNameRange     '2.0.1' ] ]
+91 verbose addNamed [ 'gulp-debug', '2.0.1' ]
+92 verbose addNamed [ '2.0.1', '2.0.1' ]
+93 silly lockFile 01590c3d-gulp-debug-2-0-1 gulp-debug@2.0.1
+94 verbose lock gulp-debug@2.0.1 /Users/kevinshin/.npm/01590c3d-gulp-debug-2-0-1.lock
+95 silly lockFile 01590c3d-gulp-debug-2-0-1 gulp-debug@2.0.1
+96 silly lockFile 01590c3d-gulp-debug-2-0-1 gulp-debug@2.0.1
+97 silly lockFile 13320985-gulp-debug gulp-debug@*
+98 silly lockFile 13320985-gulp-debug gulp-debug@*
+99 http 304 https://registry.npmjs.org/browser-sync
+100 silly registry.get cb [ 304,
+100 silly registry.get   { date: 'Fri, 20 Mar 2015 07:48:33 GMT',
+100 silly registry.get     server: 'Apache',
+100 silly registry.get     via: '1.1 varnish',
+100 silly registry.get     'last-modified': 'Fri, 20 Mar 2015 07:48:33 GMT',
+100 silly registry.get     'cache-control': 'max-age=60',
+100 silly registry.get     etag: '"4LPDOO3I19274LQXUV11A4P3C"',
+100 silly registry.get     age: '0',
+100 silly registry.get     'x-served-by': 'cache-dfw1829-DFW',
+100 silly registry.get     'x-cache': 'HIT',
+100 silly registry.get     'x-cache-hits': '1',
+100 silly registry.get     'x-timer': 'S1426837713.169211,VS0,VE186',
+100 silly registry.get     vary: 'Accept',
+100 silly registry.get     'content-length': '0',
+100 silly registry.get     'keep-alive': 'timeout=10, max=50',
+100 silly registry.get     connection: 'Keep-Alive' } ]
+101 verbose etag https://registry.npmjs.org/browser-sync from cache
+102 silly addNameRange number 2 { name: 'browser-sync', range: '*', hasData: true }
+103 silly addNameRange versions [ 'browser-sync',
+103 silly addNameRange   [ '0.1.0',
+103 silly addNameRange     '0.1.1',
+103 silly addNameRange     '0.1.3',
+103 silly addNameRange     '0.1.5',
+103 silly addNameRange     '0.1.6',
+103 silly addNameRange     '0.1.7',
+103 silly addNameRange     '0.1.8',
+103 silly addNameRange     '0.1.9',
+103 silly addNameRange     '0.1.10',
+103 silly addNameRange     '0.2.0',
+103 silly addNameRange     '0.2.1',
+103 silly addNameRange     '0.3.0',
+103 silly addNameRange     '0.3.1',
+103 silly addNameRange     '0.3.2',
+103 silly addNameRange     '0.3.3',
+103 silly addNameRange     '0.3.4',
+103 silly addNameRange     '0.3.5',
+103 silly addNameRange     '0.3.6',
+103 silly addNameRange     '0.3.7',
+103 silly addNameRange     '0.3.8',
+103 silly addNameRange     '0.3.10',
+103 silly addNameRange     '0.4.0',
+103 silly addNameRange     '0.4.1',
+103 silly addNameRange     '0.4.2',
+103 silly addNameRange     '0.4.21',
+103 silly addNameRange     '0.4.3',
+103 silly addNameRange     '0.4.4',
+103 silly addNameRange     '0.4.5',
+103 silly addNameRange     '0.4.6',
+103 silly addNameRange     '0.4.7',
+103 silly addNameRange     '0.4.8',
+103 silly addNameRange     '0.4.9',
+103 silly addNameRange     '0.4.10',
+103 silly addNameRange     '0.4.11',
+103 silly addNameRange     '0.4.12',
+103 silly addNameRange     '0.5.0',
+103 silly addNameRange     '0.5.1',
+103 silly addNameRange     '0.5.2',
+103 silly addNameRange     '0.5.3',
+103 silly addNameRange     '0.5.4',
+103 silly addNameRange     '0.5.5',
+103 silly addNameRange     '0.5.6',
+103 silly addNameRange     '0.5.7',
+103 silly addNameRange     '0.5.8',
+103 silly addNameRange     '0.5.9',
+103 silly addNameRange     '0.6.0',
+103 silly addNameRange     '0.6.1',
+103 silly addNameRange     '0.6.2',
+103 silly addNameRange     '0.7.0',
+103 silly addNameRange     '0.7.1',
+103 silly addNameRange     '0.7.2',
+103 silly addNameRange     '0.7.3',
+103 silly addNameRange     '0.7.4',
+103 silly addNameRange     '0.7.5',
+103 silly addNameRange     '0.7.7',
+103 silly addNameRange     '0.8.0',
+103 silly addNameRange     '0.8.1',
+103 silly addNameRange     '0.8.2',
+103 silly addNameRange     '0.9.0',
+103 silly addNameRange     '0.9.1',
+103 silly addNameRange     '1.0.0',
+103 silly addNameRange     '1.1.0',
+103 silly addNameRange     '1.1.1',
+103 silly addNameRange     '1.1.2',
+103 silly addNameRange     '1.2.0',
+103 silly addNameRange     '1.2.1',
+103 silly addNameRange     '1.3.0',
+103 silly addNameRange     '1.3.2',
+103 silly addNameRange     '1.3.3',
+103 silly addNameRange     '1.3.4',
+103 silly addNameRange     '1.3.5',
+103 silly addNameRange     '1.3.6',
+103 silly addNameRange     '1.3.7',
+103 silly addNameRange     '1.5.0',
+103 silly addNameRange     '1.5.1',
+103 silly addNameRange     '1.5.2',
+103 silly addNameRange     '1.5.3',
+103 silly addNameRange     '1.5.4',
+103 silly addNameRange     '1.5.5',
+103 silly addNameRange     '1.5.6',
+103 silly addNameRange     '1.5.7',
+103 silly addNameRange     '1.5.8',
+103 silly addNameRange     '1.5.9',
+103 silly addNameRange     '1.6.0',
+103 silly addNameRange     '1.6.1',
+103 silly addNameRange     '1.6.2',
+103 silly addNameRange     '1.6.3',
+103 silly addNameRange     '1.6.4',
+103 silly addNameRange     '1.6.5',
+103 silly addNameRange     '1.7.0',
+103 silly addNameRange     '1.7.1',
+103 silly addNameRange     '1.7.2',
+103 silly addNameRange     '1.7.3',
+103 silly addNameRange     '1.8.0',
+103 silly addNameRange     '1.8.1',
+103 silly addNameRange     '1.8.2',
+103 silly addNameRange     '1.8.3',
+103 silly addNameRange     '1.9.0',
+103 silly addNameRange     '1.9.1',
+103 silly addNameRange     '2.0.0-rc1',
+103 silly addNameRange     '2.0.0-rc2',
+103 silly addNameRange     '2.0.0-rc3',
+103 silly addNameRange     '2.0.0-rc4',
+103 silly addNameRange     '2.0.0-rc5',
+103 silly addNameRange     '2.0.0-rc6',
+103 silly addNameRange     '2.0.0-rc7',
+103 silly addNameRange     '2.0.0-rc8',
+103 silly addNameRange     '2.0.0-rc9',
+103 silly addNameRange     '2.0.0-rc10',
+103 silly addNameRange     '2.0.0',
+103 silly addNameRange     '2.0.1',
+103 silly addNameRange     '2.1.0',
+103 silly addNameRange     '2.1.1',
+103 silly addNameRange     '2.1.2',
+103 silly addNameRange     '2.1.3',
+103 silly addNameRange     '2.1.4',
+103 silly addNameRange     '2.1.6',
+103 silly addNameRange     '2.2.0',
+103 silly addNameRange     '2.2.1',
+103 silly addNameRange     '2.2.2',
+103 silly addNameRange     '2.2.3',
+103 silly addNameRange     '2.2.4',
+103 silly addNameRange     '2.2.5',
+103 silly addNameRange     '2.3.0',
+103 silly addNameRange     '2.3.1' ] ]
+104 verbose addNamed [ 'browser-sync', '2.3.1' ]
+105 verbose addNamed [ '2.3.1', '2.3.1' ]
+106 silly lockFile 64d3f531-browser-sync-2-3-1 browser-sync@2.3.1
+107 verbose lock browser-sync@2.3.1 /Users/kevinshin/.npm/64d3f531-browser-sync-2-3-1.lock
+108 http 304 https://registry.npmjs.org/gulp-jade
+109 silly registry.get cb [ 304,
+109 silly registry.get   { date: 'Fri, 20 Mar 2015 07:48:33 GMT',
+109 silly registry.get     server: 'Apache',
+109 silly registry.get     via: '1.1 varnish',
+109 silly registry.get     'last-modified': 'Fri, 20 Mar 2015 07:48:33 GMT',
+109 silly registry.get     'cache-control': 'max-age=60',
+109 silly registry.get     etag: '"6EV14SBLRTMPR30NBY0OYGUA"',
+109 silly registry.get     age: '0',
+109 silly registry.get     'x-served-by': 'cache-dfw1822-DFW',
+109 silly registry.get     'x-cache': 'HIT',
+109 silly registry.get     'x-cache-hits': '1',
+109 silly registry.get     'x-timer': 'S1426837713.165323,VS0,VE258',
+109 silly registry.get     vary: 'Accept',
+109 silly registry.get     'content-length': '0',
+109 silly registry.get     'keep-alive': 'timeout=10, max=50',
+109 silly registry.get     connection: 'Keep-Alive' } ]
+110 verbose etag https://registry.npmjs.org/gulp-jade from cache
+111 http 404 https://registry.npmjs.org/gupl-minify
+112 verbose headers { date: 'Fri, 20 Mar 2015 07:48:33 GMT',
+112 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+112 verbose headers   'content-type': 'application/json',
+112 verbose headers   'cache-control': 'max-age=0',
+112 verbose headers   'content-length': '51',
+112 verbose headers   'accept-ranges': 'bytes',
+112 verbose headers   via: '1.1 varnish',
+112 verbose headers   age: '0',
+112 verbose headers   'x-served-by': 'cache-dfw1835-DFW',
+112 verbose headers   'x-cache': 'MISS',
+112 verbose headers   'x-cache-hits': '0',
+112 verbose headers   'x-timer': 'S1426837713.160222,VS0,VE266',
+112 verbose headers   'keep-alive': 'timeout=10, max=50',
+112 verbose headers   connection: 'Keep-Alive' }
+113 silly registry.get cb [ 404,
+113 silly registry.get   { date: 'Fri, 20 Mar 2015 07:48:33 GMT',
+113 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+113 silly registry.get     'content-type': 'application/json',
+113 silly registry.get     'cache-control': 'max-age=0',
+113 silly registry.get     'content-length': '51',
+113 silly registry.get     'accept-ranges': 'bytes',
+113 silly registry.get     via: '1.1 varnish',
+113 silly registry.get     age: '0',
+113 silly registry.get     'x-served-by': 'cache-dfw1835-DFW',
+113 silly registry.get     'x-cache': 'MISS',
+113 silly registry.get     'x-cache-hits': '0',
+113 silly registry.get     'x-timer': 'S1426837713.160222,VS0,VE266',
+113 silly registry.get     'keep-alive': 'timeout=10, max=50',
+113 silly registry.get     connection: 'Keep-Alive' } ]
+114 silly lockFile ba252796-gupl-minify gupl-minify@*
+115 silly lockFile ba252796-gupl-minify gupl-minify@*
+116 silly lockFile 64d3f531-browser-sync-2-3-1 browser-sync@2.3.1
+117 silly lockFile 64d3f531-browser-sync-2-3-1 browser-sync@2.3.1
+118 silly lockFile 6a35fa99-browser-sync browser-sync@*
+119 silly lockFile 6a35fa99-browser-sync browser-sync@*
+120 silly addNameRange number 2 { name: 'gulp-jade', range: '*', hasData: true }
+121 silly addNameRange versions [ 'gulp-jade',
+121 silly addNameRange   [ '0.0.1',
+121 silly addNameRange     '0.0.2',
+121 silly addNameRange     '0.0.3',
+121 silly addNameRange     '0.1.0',
+121 silly addNameRange     '0.2.0',
+121 silly addNameRange     '0.3.0',
+121 silly addNameRange     '0.4.0',
+121 silly addNameRange     '0.4.1',
+121 silly addNameRange     '0.4.2',
+121 silly addNameRange     '0.5.0',
+121 silly addNameRange     '0.6.0',
+121 silly addNameRange     '0.6.1',
+121 silly addNameRange     '0.7.0',
+121 silly addNameRange     '0.8.0',
+121 silly addNameRange     '0.9.0',
+121 silly addNameRange     '0.10.0',
+121 silly addNameRange     '0.11.0',
+121 silly addNameRange     '1.0.0' ] ]
+122 verbose addNamed [ 'gulp-jade', '1.0.0' ]
+123 verbose addNamed [ '1.0.0', '1.0.0' ]
+124 silly lockFile 865a7d80-gulp-jade-1-0-0 gulp-jade@1.0.0
+125 verbose lock gulp-jade@1.0.0 /Users/kevinshin/.npm/865a7d80-gulp-jade-1-0-0.lock
+126 silly lockFile 865a7d80-gulp-jade-1-0-0 gulp-jade@1.0.0
+127 silly lockFile 865a7d80-gulp-jade-1-0-0 gulp-jade@1.0.0
+128 silly lockFile ce5aea89-gulp-jade gulp-jade@*
+129 silly lockFile ce5aea89-gulp-jade gulp-jade@*
+130 verbose stack Error: 404 Not Found: gupl-minify
+130 verbose stack     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:258:14)
+130 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:197:65)
+130 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:237:22)
+130 verbose stack     at Request.emit (events.js:98:17)
+130 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1146:14)
+130 verbose stack     at Request.emit (events.js:117:20)
+130 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1097:12)
+130 verbose stack     at IncomingMessage.emit (events.js:117:20)
+130 verbose stack     at _stream_readable.js:943:16
+130 verbose stack     at process._tickCallback (node.js:419:13)
+131 verbose statusCode 404
+132 verbose pkgid gupl-minify
+133 verbose cwd /Users/kevinshin/DevLeague/projects/hoard-it/web
+134 error Darwin 14.0.0
+135 error argv "node" "/usr/local/bin/npm" "install" "-D" "browser-sync" "gulp-debug" "gulp-jade" "gupl-minify"
+136 error node v0.10.32
+137 error npm  v2.0.2
+138 error code E404
+139 error 404 Not Found: gupl-minify
+139 error 404
+139 error 404 'gupl-minify' is not in the npm registry.
+139 error 404 You should bug the author to publish it (or use the name yourself!)
+139 error 404 It was specified as a dependency of 'hoard-it'
+139 error 404
+139 error 404 Note that you can also install from a
+139 error 404 tarball, folder, http url, or git url.
+140 verbose exit [ 1, true ]

@@ -1,0 +1,34 @@
+{
+  "name": "hoard-it",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kevnshin/hoard-it",
+  "authors": [
+    "Kevin Shin <kevnshin@gmail.com>"
+  ],
+  "description": "Crud application to store snippets of information from the web",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+
+  "dependencies": {
+    "angular": ">=1.2.*",
+    "angular-resource": ">=1.2.*",
+    "angular-cookies": ">=1.2.*",
+    "angular-sanitize": ">=1.2.*",
+    "angular-bootstrap": "~0.11.0",
+    "font-awesome": ">=4.1.0",
+    "foundation-apps": "1.1.0",
+    "lodash": "~2.4.1",
+    "angular-ui-router": "~0.2.10"
+  }
+
+}
