@@ -2,7 +2,7 @@
   "name": "hoard-it",
   "version": "1.0.0",
   "description": "A web application to hoard snippets of info to compile for research purposes.",
-  "main": "server/app.js",
+  "main": "server/server.js",
   "dependencies": {
     "body-parser": "^1.10.0",
     "passport-facebook": "^2.0.0",

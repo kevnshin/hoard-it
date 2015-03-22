@@ -1,0 +1,5 @@
+{
+  "port": 4000,
+  "secret": "hoarders",
+  "databaseURL": "mongodb://admin:ks03111991HI.@ds041168.mongolab.com:41168/hoard-it"
+}

@@ -21,7 +21,7 @@ gulp.task('sass', function () {
 
 gulp.task('develop', function () {
   nodemon({ 
-    script: './server/app.js',
+    script: './server/server.js',
     //ext: 'html js',
     ignore: ['client/**']
   })
@@ -35,7 +35,7 @@ gulp.task('develop', function () {
 gulp.task('watch', ['sass', 'browserSync'], function () {
   gulp.watch('client/app/**/*.jade', ['jade']);
   gulp.watch('client/app/**/*.scss', ['sass']);
-  gulp.watch('client/app/**/*', function () {
+  gulp.watch('client/**/*', function () {
     browserSync.reload();
   });
 })
