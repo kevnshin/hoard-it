@@ -1,4 +1,5 @@
 'use strict';
+
 var Hoard = require('./hoard.model.js');
 
 exports.index = function (req, res) {
@@ -16,10 +17,14 @@ exports.index = function (req, res) {
 
 exports.create_hoard = function (req, res) {
   console.log(req.body);
-  var new_snippet = new Hoard();
-  Hoard.save( function (err, hoard) {
-    if (err) {
-      throw err;
-    }
-  })
+  // var sample = {
+  //   snippet: "Sample Text",
+  //   url: "http://www.google.com"
+  // };
+  // var new_snippet = new Hoard(sample);
+  // new_snippet.save( function (err, hoard) {
+  //   if (err) {
+  //     throw err;
+  //   }
+  // })
 }
